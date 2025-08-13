@@ -14,5 +14,5 @@ jobs:
         uses: maxam2017/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.https://gist.github.com/Baetato/37840436bf1b38725e1788a50b6ad737 }}
-          TIMEZONE: ${{ vars.Asia/Seoul }}
+          GIST_ID: ${{ secrets.GOST_ID }}
+          TIMEZONE: ${{ vars.TIMEZONE }}
